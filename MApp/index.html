@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6e628cabd0.js" crossorigin="anonymous"></script>
+    <title>Maduka's Music App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+<body class="d-jc-ai">
+    <div class="iphone-body">
+        <div class="network-bar d-flex jc-sb ai-c">
+            <div class="time">09:35</div>
+            <div class="dark-display"></div>
+            <div class="connection d-jc-ai">
+                <div class="signal">
+                    <i class="fa-solid fa-signal"></i>
+                </div>
+                <div class="wifi">
+                    <i class="fa-solid fa-wifi"></i>
+                </div>
+                <div class="battery">
+                    <i class="fa-solid fa-battery-three-quarters"></i>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="track-bar d-flex jc-sb ai-c">
+            <div class="caret-down">
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+            <div class="now-playing">
+                Now Playing
+            </div>
+            <div class="play-list">...</div>
+        </div>
+
+
+        <div class="track-img d-jc-ai">
+            <img class="track-image" src="images/drake.webp" alt="">
+        </div>
+
+
+        <div class="track-details d-flex jc-sb ai-c">
+            <div class="details">
+                <div class="song-title hd-fontsize">Fountains</div>
+                <div class="artist">Drake</div>
+            </div>
+            <div class="add-to-playlist d-jc-ai">
+                <div class="remove norm-font d-jc-ai">-</div>
+                <div class="add norm-font d-jc-ai">+</div>
+            </div>
+        </div>
+
+        <div class="track-progress d-jc-ai">
+            <div class="current-time">00:00</div>
+            <input type="range" min="1" max="100" value="0" class="progress">
+            <div class="total-duration">00:00</div>
+        </div>
+
+        <div class="track-control d-flex jc-sb ai-c">
+            <div class="shuffle cur-p"><i class="fa-solid fa-shuffle"></i></div>
+            <div class="prev-btn cur-p"><i class="fa-solid fa-backward"></i></div>
+            <div class="play-pause cur-p"><i class="fa-solid fa-play fa-3x"></i></div>
+            <div class="nextbtn cur-p"><i class="fa-solid fa-forward"></i></div>
+            <div class="repeat cur-p"><i class="fa-solid fa-repeat"></i></div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

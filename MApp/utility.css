@@ -1,0 +1,30 @@
+.d-flex {
+    display: flex;
+}
+.jc-c {
+    justify-content: center;
+}
+.ai-c {
+    align-items: center;
+}
+.jc-sb {
+    justify-content: space-between;
+}
+.d-jc-ai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txt-a {
+    text-align: center;
+}
+.cur-p {
+    cursor: pointer;
+}
+.hd-fontsize {
+    font-size: 30px;
+    font-weight: 800;
+}
+.norm-font {
+    font-size: 20px;
+}

@@ -1,0 +1,91 @@
+@import url(utility.css);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+
+.network-bar {
+    padding: 20px 30px 0px 40px;
+}
+
+
+.iphone-body {
+    width: 350px;
+    height: 700px;
+    border: 1px solid;
+    border-radius: 35px;
+}
+
+.dark-display {
+    border: 1px solid;
+    height: 30px;
+    width: 90px;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.wifi, .battery, .signal{
+    margin-left: 10px;
+}
+
+.track-bar {
+    padding: 30px 20px 0px 20px;
+}
+
+.track-img img {
+    width: 250px;
+    height: 250px;
+}
+
+.track-img {
+    margin-top: 50px;
+}
+
+.track-details {
+    padding: 20px;
+}
+.remove {
+    margin-right: 20px;
+    border: 1px solid;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+.add {
+    border: 1px solid;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.track-progress {
+    padding: 20px;
+}
+
+.progress {
+    width: 100%;
+}
+.track-control {
+    padding: 30px;
+}
+
+.homebtn {
+    width: 150px;
+    height: 5px;
+    border: 1px solid;
+    background-color: black;
+    border-radius: 10px;
+}
+
+
+@media (min-width: 475px) {
+
+}
