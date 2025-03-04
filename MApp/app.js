@@ -187,4 +187,5 @@ function seekUpdate(){
 playPauseBtn.addEventListener("click", playPauseTrack);
 prevBtn.addEventListener("click", prevTrack)
 nextBtn.addEventListener("click", nextTrack);
+realTime();
 loadTrack(trackIndex);
